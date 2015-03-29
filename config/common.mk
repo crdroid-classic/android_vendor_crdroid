@@ -213,7 +213,8 @@ PRODUCT_PACKAGES += \
 # Terminal Emulator
 PRODUCT_COPY_FILES +=  \
     vendor/crdroid/proprietary/Term.apk:system/app/Term.apk \
-    vendor/crdroid/proprietary/lib/armeabi/libjackpal-androidterm4.so:system/lib/libjackpal-androidterm4.so
+    vendor/crdroid/proprietary/lib/armeabi/libjackpal-androidterm5.so:system/lib/libjackpal-androidterm5.so \
+    vendor/crdroid/proprietary/lib/armeabi/libjackpal-termexec2.so:system/lib/libjackpal-termexec2.so
 
 # AdAway
 PRODUCT_COPY_FILES += \
