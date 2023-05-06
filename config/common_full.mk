@@ -3,6 +3,10 @@ $(call inherit-product, vendor/lineage/config/common_mobile.mk)
 
 PRODUCT_SIZE := full
 
+# Extra cmdline tools
+PRODUCT_PACKAGES += \
+    zstd
+
 # Recorder
 PRODUCT_PACKAGES += \
     Recorder
